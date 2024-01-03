@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background-color: #F1F1F3;
+  position: relative;
+}
+
+.hero{
+    height: 95vh;
+    background-image: url(./public/hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
